@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice Bocal Academie</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"> <!-- ?t=<?php echo time(); ?> -->
+    <link rel="stylesheet" media="screen" href="css/main.css" type="text/css" />
+</head>
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx FIN DE HEAD xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+<body>
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx HEADER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+    
+    <div class="menuBurger">
+		<span class="haut"></span>
+		<span class="milieu"></span>
+		<span class="bas"></span>
+	</div>  
+      
+    <nav >
+            
+        <a href="#Accueil">
+            <img src="img/logo.png" alt="Logo Sophie Photographie">
+        </a>
+        <span>
+            <a href="#QuiSuisJe">Qui suis-je ?</a>
+            <a href="#Creations">Mes créations</a>
+            <a href="#Tarifs">Tarifs</a>
+            <a href="#Contact">Contactez-moi</a>
+        </span>
+    </nav>
+
+    
+
+    <header >
+
+        <h1>Sophie Photographies</h1>
+        <p>Vos photos, ma passion.</p>
+
+    </header>
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx FIN DE HEADER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx MAIN xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+    <main>
+
+
+        <section id="QuiSuisJe">
+
+            <div>
+                <h2>Qui suis-je ?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan faucibus risus. Cras ac purus metus. Maecenas sit amet iaculis nulla. Ut ornare arcu non lectus sodales suscipit ut eget turpis.</p>
+                <p>Nulla volutpat tellus nec mi sodales condimentum. Nam vulputate, dolor et facilisis maximus, leo odio mollis odio, ac efficitur nibh magna sit amet orci. Vestibulum nunc nisi, pulvinar in blandit sit amet, vehicula id quam. Nam est nisi, imperdiet vitae turpis eget, imperdiet molestie enim. Suspendisse sit amet sollicitudin nibh. Nullam mattis metus sed mattis porta. Aenean at accumsan sem, ut rhoncus augue.</p>
+                <p>Duis egestas rhoncus erat, a vestibulum nunc accumsan eu. Vestibulum a lacus et felis vehicula elementum. Aliquam tempus venenatis purus nec auctor. In rutrum ut neque sit amet faucibus. Phasellus ut euismod tortor, sit amet imperdiet nunc. Aenean fringilla nisi ac nibh imperdiet faucibus. Ut cursus laoreet scelerisque.</p>
+                <p>-Sophie</p>
+            </div>
+            <img src="img/sophie.jpg" alt="" srcset="">
+
+        </section>
+
+        <section id="Creations">
+            <h2>Mes créations</h2>
+            <div>
+                <img src="img/picture1.jpg" alt="photo de deux bagues">
+                <img src="img/picture2.jpg" alt="photo d'un appareil photo prenant une femme en photo">
+                <img src="img/picture3.jpg" alt="photo de paysage">
+                <img src="img/picture5.jpg" alt="photo de constellation">
+                <img src="img/picture7.jpg" alt="photo d'un couple de mariés">
+                <img src="img/picture8.jpg" alt="photo d'un groupe de travail">
+            </div>
+        </section>
+
+        <section id="Tarifs">
+            <h2>Tarifs</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Prestation</th>
+                        <th>Description</th>
+                        <th>Durée</th>
+                        <th>Prix</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Portrait simple</td>
+                        <td>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </td>
+                        <td>X min.</td>
+                        <td>X € TTC</td>
+                    </tr>
+                    <tr>
+                        <td>Portrait professionnel (3 prises)</td>
+                        <td>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </td>
+                        <td>X min.</td>
+                        <td>X € TTC</td>
+                    </tr>
+                    <tr>
+                        <td>Photo de groupe</td>
+                        <td>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </td>
+                        <td>X min.</td>
+                        <td>X € TTC</td>
+                    </tr>
+                    <tr>
+                        <td>Mariage</td>
+                        <td>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                        </td>
+                        <td>X min.</td>
+                        <td>X € TTC</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx FIN DE MAIN xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx FOOTER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+    <footer>
+
+        <section id="Contact">
+
+            <h2>Contactez-moi</h2>
+
+            <form action="">
+
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom" id="prenom" required>
+                
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom" required>
+
+                <label for="mail">Email</label>
+                <input type="mail" name="mail" id="mail" required>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+                
+                <div>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">J'accepte que mes données ci-dessus soient traitées à des fins de prises de contact commerciales.</label>
+                </div>  
+
+                <input type="submit" name="envoyer" id="envoyer">
+            
+            </form>
+            
+        </section>
+
+        <small> Sophie Photographies 2020 </small>
+
+    </footer>
+
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx FIN DE FOOTER xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
